@@ -1,2 +1,4 @@
 copy.md
 extracted_profile_facts.md
+.env.*
+node_modules
