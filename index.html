@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mahfoudh Arous — Software Engineer, React Specialist &amp; Mentor</title>
+  <meta name="description" content="Software Engineer, React &amp; JavaScript specialist, and Mentor. Building SaaS, web applications, and interactive learning tools.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-wrapper">
+    <!-- Header -->
+    <header class="site-header">
+      <div class="container header-container">
+        <a href="#" class="brand-logo" aria-label="Mahfoudh Arous - Home">Mahfoudh Arous</a>
+        
+        <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation menu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+
+        <nav id="primary-nav" class="nav-menu" aria-label="Primary navigation">
+          <ul class="nav-list">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-avatar-container">
+          <div class="avatar-ring">
+            <img src="photo.jpg" alt="Mahfoudh Arous" class="hero-avatar" width="160" height="160">
+          </div>
+        </div>
+
+        <div class="hero-content">
+          <h1 class="hero-title">Hi, I'm Mahfoudh Arous</h1>
+          <p class="hero-subtitle">
+            Software Engineer, React &amp; JavaScript specialist, and Mentor. I build SaaS, web apps, and interactive learning tools.
+          </p>
+          <div class="hero-cta-wrapper">
+            <a href="#projects" class="btn btn-primary">View my work</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <div class="container main-container">
+        <!-- About & Skills Section -->
+        <section class="about-skills-section" aria-label="About and Skills">
+          <div class="about-column" id="about">
+            <h2 class="section-heading-dark">About Me</h2>
+            <div class="about-text-content">
+              <p>
+                I build web applications and create practical ways to learn. With 200+ delivered freelance projects and enterprise engineering experience at Sonelgaz/Siemens, I bring ideas to life.
+              </p>
+              <p>
+                I work seamlessly in Arabic, French, and English.
+              </p>
+            </div>
+          </div>
+
+          <div class="skills-column" id="skills">
+            <h2 class="section-heading-dark">Skills &amp; Expertise</h2>
+            <div class="skills-pill-group">
+              <!-- React (Blue) -->
+              <span class="skill-pill pill-blue">
+                <svg class="pill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                  <circle cx="12" cy="12" r="2" fill="currentColor"/>
+                  <ellipse cx="12" cy="12" rx="9" ry="3.8"/>
+                  <ellipse cx="12" cy="12" rx="9" ry="3.8" transform="rotate(60 12 12)"/>
+                  <ellipse cx="12" cy="12" rx="9" ry="3.8" transform="rotate(120 12 12)"/>
+                </svg>
+                React
+              </span>
+
+              <!-- JavaScript (Cyan) -->
+              <span class="skill-pill pill-cyan">
+                <svg class="pill-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <rect x="2" y="2" width="20" height="20" rx="4" fill="none" stroke="currentColor" stroke-width="2"/>
+                  <path d="M8 12v5a2 2 0 0 0 2 2h.5"/>
+                  <path d="M14 17c1 .8 2.5.8 3.3 0 .6-.6.6-1.5 0-2.1-.8-.8-2.6-.9-3.3-1.6-.6-.6-.6-1.6 0-2.2.8-.8 2.3-.8 3.3 0"/>
+                </svg>
+                JavaScript
+              </span>
+
+              <!-- WordPress (Blue) -->
+              <span class="skill-pill pill-blue">
+                <svg class="pill-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18.2a8.2 8.2 0 0 1-5.1-1.8l3.7-10.2 2.6 7.4.8-2.3-1.7-4.6c.6-.1 1.2-.1 1.7-.1.4 0 .7.1 1.1.2l-3.1 9.6zm6.8-5.7a8.1 8.1 0 0 1-1.4 3.7L15 8.9c.7-.1 1.4-.2 1.8-.2.2 0 .5 0 .7.1a7.8 7.8 0 0 1 1.3 5.7zM3.8 12a8.1 8.1 0 0 1 3.5-6.7L3.9 14.5A8 8 0 0 1 3.8 12zM12 3.8c1.6 0 3.1.5 4.3 1.4L13.7 12 11.2 5c.4-.1.7-.1 1.1-.1.4 0 .7 0 1.1.1-.5-.8-1.4-1.2-1.4-1.2z"/>
+                </svg>
+                WordPress
+              </span>
+
+              <!-- Public Speaking (Cyan) -->
+              <span class="skill-pill pill-cyan">
+                <svg class="pill-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77zm-4 4.77H6c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h4l5 5V3l-5 5zm2 7.17-2.71-2.71H7v-2.92h2.29L12 8.83v6.34z"/>
+                </svg>
+                Public Speaking
+              </span>
+
+              <!-- Technical Translation (Blue) -->
+              <span class="skill-pill pill-blue">
+                <svg class="pill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <circle cx="12" cy="12" r="9"/>
+                  <line x1="3" y1="12" x2="21" y2="12"/>
+                  <path d="M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>
+                </svg>
+                Technical Translation
+              </span>
+
+              <!-- Node.js (Cyan) -->
+              <span class="skill-pill pill-cyan">
+                <svg class="pill-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12 2 3.5 6.9v9.8L12 21.6l8.5-4.9V6.9L12 2zm0 2.3 6.5 3.8v7.5L12 19.3 5.5 15.6V8.1L12 4.3z"/>
+                </svg>
+                Node.js
+              </span>
+
+              <!-- Git (Blue) -->
+              <span class="skill-pill pill-blue">
+                <svg class="pill-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M21.6 10.9 13.1 2.4a2.2 2.2 0 0 0-3.1 0L7.8 4.6l3.3 3.3a2.6 2.6 0 0 1 3.3 3.3l3.2 3.2a2.6 2.6 0 1 1-1.5 1.5l-3-3a2.6 2.6 0 0 1-3.2-3.3L6.6 6.3 2.4 10.5a2.2 2.2 0 0 0 0 3.1l8.5 8.5a2.2 2.2 0 0 0 3.1 0l7.6-7.6a2.2 2.2 0 0 0 0-3.6z"/>
+                </svg>
+                Git
+              </span>
+            </div>
+          </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="dark-card experience-card" id="experience" aria-labelledby="experience-heading">
+          <h2 class="card-heading-light" id="experience-heading">Experience</h2>
+          
+          <div class="experience-columns-wrapper">
+            <!-- Left Column: OpenClassrooms & Fiverr -->
+            <div class="experience-column">
+              <article class="timeline-item">
+                <div class="timeline-indicator" aria-hidden="true">
+                  <span class="indicator-dot"></span>
+                  <span class="indicator-line"></span>
+                </div>
+                <div class="timeline-content">
+                  <h3 class="role-title">Mentor at OpenClassrooms</h3>
+                  <p class="role-desc">Software Engineer &amp; Mentor at OpenClassrooms</p>
+                </div>
+              </article>
+
+              <article class="timeline-item timeline-item-last">
+                <div class="timeline-indicator" aria-hidden="true">
+                  <span class="indicator-dot"></span>
+                  <span class="indicator-line line-mobile-only"></span>
+                </div>
+                <div class="timeline-content">
+                  <h3 class="role-title">Full-stack Developer on Fiverr</h3>
+                  <p class="role-desc">Full-stack Developer on Fiverr and 5-star feedback, 200+ projects</p>
+                </div>
+              </article>
+            </div>
+
+            <!-- Right Column: Sonelgaz/Siemens & CNEP-Banque -->
+            <div class="experience-column">
+              <article class="timeline-item">
+                <div class="timeline-indicator" aria-hidden="true">
+                  <span class="indicator-dot"></span>
+                  <span class="indicator-line"></span>
+                </div>
+                <div class="timeline-content">
+                  <h3 class="role-title">Software Engineer at Sonelgaz/Siemens</h3>
+                  <p class="role-desc">Software Engineer at Sonelgaz/Siemens, dedicated engineering at Sonelgaz/Siemens</p>
+                </div>
+              </article>
+
+              <article class="timeline-item timeline-item-last">
+                <div class="timeline-indicator" aria-hidden="true">
+                  <span class="indicator-dot"></span>
+                </div>
+                <div class="timeline-content">
+                  <h3 class="role-title">Software Engineer at CNEP-Banque</h3>
+                  <p class="role-desc">Software Engineer at CNEP-Banque, banking systems at CNEP-Banque</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- Featured Work Section -->
+        <section class="dark-card projects-card" id="projects" aria-labelledby="projects-heading">
+          <h2 class="card-heading-light" id="projects-heading">Featured Work</h2>
+          
+          <div class="projects-grid">
+            <!-- Project 1 -->
+            <article class="project-card">
+              <div class="project-preview preview-react" aria-hidden="true">
+                <div class="browser-window">
+                  <div class="window-bar">
+                    <span class="dot dot-red"></span>
+                    <span class="dot dot-yellow"></span>
+                    <span class="dot dot-green"></span>
+                  </div>
+                  <div class="window-canvas">
+                    <svg class="preview-react-logo" viewBox="0 0 24 24" fill="none" stroke="#00D2D3" stroke-width="1.8">
+                      <circle cx="12" cy="12" r="2.2" fill="#00D2D3"/>
+                      <ellipse cx="12" cy="12" rx="9" ry="3.8"/>
+                      <ellipse cx="12" cy="12" rx="9" ry="3.8" transform="rotate(60 12 12)"/>
+                      <ellipse cx="12" cy="12" rx="9" ry="3.8" transform="rotate(120 12 12)"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="project-info">
+                <span class="project-tag">Interactive React Code Lab</span>
+                <h3 class="project-title">Interactive React Code Lab</h3>
+              </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="project-card">
+              <div class="project-preview preview-devlingo" aria-hidden="true">
+                <div class="devlingo-badge-box">
+                  <svg class="devlingo-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15-5-5 1.41-1.41L11 14.17l7.59-7.59L20 8l-9 9z"/>
+                  </svg>
+                  <span class="devlingo-brand-text">DevLingo</span>
+                </div>
+              </div>
+              <div class="project-info">
+                <span class="project-tag">DevLingo</span>
+                <h3 class="project-title">DevLingo</h3>
+              </div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="project-card">
+              <div class="project-preview preview-freelance" aria-hidden="true">
+                <div class="preview-cards-stack">
+                  <div class="stack-card card-back">
+                    <div class="mini-bar"></div>
+                  </div>
+                  <div class="stack-card card-front">
+                    <div class="mini-bar"></div>
+                    <div class="mini-lines">
+                      <span class="line"></span>
+                      <span class="line line-short"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-info">
+                <span class="project-tag">Freelance Projects</span>
+                <h3 class="project-title">Freelance Projects</h3>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- Let's Connect Section -->
+        <section class="light-card connect-card" id="contact" aria-labelledby="connect-heading">
+          <h2 class="connect-heading" id="connect-heading">Let's Connect</h2>
+          <p class="connect-subheading">Building a web product or learning tool? Let's connect.</p>
+          
+          <div class="connect-action-row">
+            <a href="https://www.linkedin.com/in/mahfoudh-arous/" class="btn btn-linkedin" target="_blank" rel="noopener noreferrer">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+              </svg>
+              <span>LinkedIn: mahfoudh-arous</span>
+            </a>
+
+            <div class="social-icon-links">
+              <!-- Email -->
+              <a href="https://www.linkedin.com/in/mahfoudh-arous/" class="social-icon-btn" aria-label="Contact via Email on LinkedIn" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
+                </svg>
+              </a>
+
+              <!-- Twitter/X -->
+              <a href="https://www.linkedin.com/in/mahfoudh-arous/" class="social-icon-btn" aria-label="Twitter Profile on LinkedIn" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+              </a>
+
+              <!-- GitHub -->
+              <a href="https://www.linkedin.com/in/mahfoudh-arous/" class="social-icon-btn" aria-label="GitHub Profile on LinkedIn" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-container">
+        <p>&copy; 2026 Mahfoudh Arous. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Accessible Mobile Navigation Toggle Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var menuToggle = document.getElementById('menu-toggle');
+      var primaryNav = document.getElementById('primary-nav');
+
+      if (menuToggle && primaryNav) {
+        menuToggle.addEventListener('click', function () {
+          var isExpanded = menuToggle.getAttribute('aria-expanded') === 'true';
+          menuToggle.setAttribute('aria-expanded', !isExpanded);
+          primaryNav.classList.toggle('nav-open', !isExpanded);
+        });
+
+        // Close menu when a link is clicked
+        var navLinks = primaryNav.querySelectorAll('.nav-link');
+        navLinks.forEach(function (link) {
+          link.addEventListener('click', function () {
+            menuToggle.setAttribute('aria-expanded', 'false');
+            primaryNav.classList.remove('nav-open');
+          });
+        });
+      }
+    });
+  </script>
+</body>
+</html>
